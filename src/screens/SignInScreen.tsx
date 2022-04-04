@@ -9,7 +9,7 @@ export const SignInScreen = (props: Props) => {
 
   return (
     <View style={{flex: 1, justifyContent:'center', alignItems: 'center'}}>
-      <Text>Sign In Screen</Text>
+      <Text>Sign In Screen hello </Text>
       <Button title="Sign In" onPress={auth.signIn} />
     </View>
   );  
